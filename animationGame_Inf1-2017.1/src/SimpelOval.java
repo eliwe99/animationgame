@@ -10,6 +10,11 @@ public double area (){return Math.PI*width*height/4;}
 public String toString(){
 			return "SimpelOval("+super.toString()+")";}
 				
+public boolean equals(Object that){
+	return(that instanceof SimpelOval && super.equals(that));
+	
+	
+}
 }
 	
 	

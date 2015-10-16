@@ -31,11 +31,12 @@ public class GeometricObject {
 	
 	public GeometricObject(Vertex pos){this(0,0,pos);}
 	
-	public GeometricObject(){
+	/*public GeometricObject(){
 		this(GeometricObject());
-	}
+	}*/
 	
-    public double getWidth(){return width;}
+
+	public double getWidth(){return width;}
 	
     public double getHeight(){return height;}
     
