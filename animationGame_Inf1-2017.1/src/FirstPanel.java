@@ -10,6 +10,7 @@ public class FirstPanel extends JPanel{
 		
 		JFrame f=new JFrame ();
 		f.add(new FirstPanel());
+		f.pack();
 		f.setVisible(true);
 		
 	}
