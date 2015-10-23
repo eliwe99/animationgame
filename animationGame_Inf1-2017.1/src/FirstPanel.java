@@ -1,5 +1,5 @@
 import javax.swing.*;
-public class FirstPanel {
+public class FirstPanel extends JPanel{
 	
 	public void printComponent(java.awt.Graphics g){
 		g.fillRect(30,50,45,80);

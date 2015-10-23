@@ -9,7 +9,6 @@ public class showInFrame {
 				
 	}
 	
-	public static void show(JComponent c){show("",c);}
-	
-	
+	public static void show(JComponent c) {show("",c);}
+		
 }
